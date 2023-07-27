@@ -1,17 +1,21 @@
 function add(number1, number2) {
+  console.log("add function number1: ",number1);
+  console.log("add function number2: ",number2);
   return number1 + number2;
 }
 
-const number1 = prompt("1");
-const number2 = prompt("2");
+const userNumber1 = parseInt(prompt("Enter a number"));
+const userNumber2 = parseInt(prompt("Enter another number"));
 
-window.alert(add(1,2));
+window.alert(add(userNumber1, userNumber2));
 
-function subtract(number3, number4) {
-  return number3 - number4;
+function subtract(number1, number2) {
+  console.log("subtract function number1: ",number1);
+  console.log("subtract function number2: ",number2);
+  return number1 - number2;
 }
 
-const number3 = prompt("5");
-const number4 = prompt("4");
+const userNumber3 = parseInt(prompt("Enter a number"));
+const userNumber4 = parseInt(prompt("Enter another number"));
 
-window.alert(subtract(5,4));
+window.alert(subtract(userNumber3, userNumber4));
