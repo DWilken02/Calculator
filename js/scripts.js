@@ -35,6 +35,6 @@ function handleCalculation(event) {
 }
 
 window.addEventListener("load", function() {
-  const form = document.getElementById("calculator");
+  const form = document.getElementById("calculator")
   form.addEventListener("submit", handleCalculation);
 });
